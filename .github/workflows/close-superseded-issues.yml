@@ -1,0 +1,32 @@
+name: Close superseded issues
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  close:
+    if: github.event_name == 'workflow_dispatch' || github.head_ref == 'cursor/pcs-qi-proposal-e35d'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close issues from the larger sketch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          comment='Superseded by the reduced 2–3 person scope (#16–#19).'
+          for n in 1 2 3 4 5 6 7 8 9 10 11 12 13 14; do
+            state=$(gh issue view "$n" --json state -q .state)
+            if [ "$state" = "OPEN" ]; then
+              gh issue close "$n" --reason "not planned" --comment "$comment"
+              echo "Closed #$n"
+            else
+              echo "#$n already $state"
+            fi
+          done
