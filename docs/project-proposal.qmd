@@ -1,0 +1,107 @@
+---
+title: "Offering patient-controlled sedation for port implantation"
+subtitle: "A small quality improvement proposal"
+date: last-modified
+date-format: "D MMMM YYYY"
+lang: en-GB
+format:
+  html:
+    toc: true
+    toc-depth: 2
+bibliography: references.bib
+csl: vancouver.csl
+link-citations: true
+---
+
+**Team:** two or three people who already do the port list — typically one or two anaesthesiologists and a nurse anaesthetist.  
+**Place:** the lists this team already runs (intended: PMV, Karolinska University Hospital).  
+**Technique:** propofol–alfentanil patient-controlled sedation (PCS) plus local anaesthesia (LA), copied from PACSPI 2 [@seifert2026].  
+**This is not:** a trial, a unit-wide implementation, a training programme, or a paper.
+
+## Problem
+
+Patients booked for subcutaneous venous port (SVP) implantation differ in whether they want sedation. About one in four have important pain under LA alone [@taxbro2013; @seifert2026]. PACSPI 2 showed that adding PCS does **not** reduce that pain or raise already-high satisfaction, so routine sedation would overtreat the rest [@seifert2026]. PACSPI 1 and 2 also showed that many patients decline one option or the other on purpose [@seifert2022; @seifert2026].
+
+We do not currently have a simple, honest way to offer PACSPI-style PCS to those who want it, on our own lists, while leaving LA alone as a normal choice.
+
+## Aim
+
+On **our** port lists, offer eligible adults a documented choice between LA alone and LA + PCS. After about **15 patients who receive PCS**, or **two months**, whichever comes first, decide whether we keep offering it.
+
+That is the whole aim. There is no 80% process target, no scale-up, and no SQUIRE manuscript in this project.
+
+## What we will not do
+
+- Recruit a wider stakeholder group, pharmacy workstream, or QI office project
+- Write a full SOP, training package, or decision-aid booklet
+- Run a baseline audit, three PDSA cycles, or a unit rollout
+- Build a database, run charts, or a cost analysis
+- Change how the port is implanted
+- Use PCS without a dedicated anaesthesia-competent person watching the patient
+
+## Technique
+
+Copy PACSPI 2 unless pharmacy or the pump force a documented equivalent [@seifert2026].
+
+| Element | Specification |
+| --- | --- |
+| Pump | Patient-controlled syringe pump with a handset |
+| Syringe | Propofol 36 mL (10 mg/mL) + alfentanil 4 mL (0.5 mg/mL) |
+| Bolus | 0.5 mL = propofol 4.5 mg + alfentanil 25 µg over 10 s |
+| Lockout | None; maximum six boluses/min |
+| Who presses | The patient only |
+| When | From pump connection, before skin antisepsis |
+| LA | The operator’s usual infiltration |
+| Monitoring | Dedicated nurse anaesthetist; ECG, NIBP, SpO₂, respiratory rate, capnography |
+| Oxygen | 2 L/min via nasal cannula with capnography from the start |
+| Setting | Operating room (or equivalent) |
+
+**What we tell the patient, in substance:** this is optional; it is for comfort and control; it has not been shown to hurt less than LA alone; some people get sleepy enough to need a reminder to breathe; LA alone is a full alternative.
+
+**Rescue we treat as expected:** verbal prompt, extra oxygen, chin lift. Stop and convert to ordinary clinician-controlled sedation or general anaesthesia if that is safer. Report airway events through the usual avvikelse route.
+
+**Do not offer PCS if** the patient cannot use the handset or give a meaningful yes, is not fasted, has no peripheral cannula, is pregnant, or the anaesthesiologist thinks sedation is a bad idea.
+
+## How we will actually work
+
+1. **One page.** Pump settings, the patient explanation above, and rescue steps — written for ourselves, not for the hospital manual.
+2. **One yes.** Ask the section whether we may offer this on our lists. No ethics application unless we later decide to publish generalisable results; this is verksamhetsutveckling with licensed drugs.
+3. **A short series.** Offer the choice to consecutive eligible patients on our lists. Do a dry run of the pump once before the first patient.
+4. **A spreadsheet.** One row per patient (see below). No parallel research CRF.
+5. **A stop rule.** Pause if we see mask ventilation, repeated hypoxia, or the list running late in a way we cannot absorb.
+6. **A decision.** Keep offering it, change something small, or stop.
+
+## Log
+
+One spreadsheet, columns:
+
+- date
+- choice: LA / PCS / not eligible / declined
+- max pain 0–10
+- satisfaction 0–10
+- airway event (none / verbal prompt / extra O₂ / chin lift / other)
+- list delayed? (no / a bit / yes)
+- free-text note
+
+Pain is recorded so we can see whether our patients look like PACSPI 2. It is not a success metric.
+
+## Safety, in one paragraph
+
+Propofol plus alfentanil can stop breathing [@hinkelbein2018; @nilsson2014]. PACSPI 2 had hypoxia or obstructed airway in 2/166 PCS patients (1.2%) [@seifert2026]. We copy their monitoring rather than inventing a lighter model. Compared with clinician-controlled propofol, PCS tends to need fewer rescue interventions, but that is not a reason to under-monitor [@kreienbuhl2018].
+
+## Work (GitHub issues)
+
+| Issue | Work |
+| --- | --- |
+| [Write a one-page recipe and patient script](https://github.com/martingerdin/patient-controlled-sedation/issues/16) | Pump settings, explanation, rescue — one page |
+| [Get a departmental yes](https://github.com/martingerdin/patient-controlled-sedation/issues/17) | Permission to offer PCS on our lists |
+| [Run a small series and keep the log](https://github.com/martingerdin/patient-controlled-sedation/issues/18) | Dry run, then consecutive eligible patients until ~15 PCS cases or two months |
+| [Decide whether to keep offering PCS](https://github.com/martingerdin/patient-controlled-sedation/issues/19) | Keep, tweak, or stop |
+
+Issues #1–14 were written for a larger project and are superseded.
+
+## Success
+
+A patient who wants to be in control of their own sedation can get PACSPI-style PCS on this team’s list. A patient who does not want it is not given it. The airway story stays boring.
+
+## References

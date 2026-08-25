@@ -1,0 +1,73 @@
+---
+title: "Patient-controlled sedation for subcutaneous venous port implantation"
+subtitle: "A short literature review"
+date: last-modified
+date-format: "D MMMM YYYY"
+lang: en-GB
+format:
+  html:
+    toc: true
+    toc-depth: 2
+bibliography: references.bib
+csl: vancouver.csl
+link-citations: true
+---
+
+This is a targeted narrative review for a small local quality improvement project, not a systematic review. Search date: August 2026.
+
+## Purpose
+
+The project would *offer* patient-controlled sedation (PCS) with propofol and alfentanil as an adjunct to local anaesthesia (LA) during implantation of a subcutaneous venous port (SVP).
+
+PACSPI 2 has already answered whether PCS reduces pain for this procedure. It does not [@seifert2026]. The remaining question is whether PCS can be offered as a patient-centred option, with acceptable safety, on an ordinary port list run by a team of two or three.
+
+## Context
+
+Sweden records on the order of 70 000 new cancer diagnoses a year [@socialstyrelsen2024], and about 8 000 SVPs are implanted annually [@spor]. The operation is minor day-case surgery, usually in adults with cancer. Practice ranges from LA alone through clinician-controlled sedation to general anaesthesia, with little comparative evidence [@seifert2022; @seifert2026]. About one in four patients report substantial pain or discomfort under LA alone [@taxbro2013]. Most do not. A policy of always sedating, or never sedating, will get a large fraction of patients wrong.
+
+## What PCS is
+
+PCS is the sedative analogue of patient-controlled analgesia: the patient triggers small intravenous boluses from a programmed pump [@rudkin1991]. Propofol is the usual drug. An opioid is sometimes added. Once the patient is too sedated to press the button, further boluses stop — a behavioural brake, not a substitute for watching the airway [@nilsson2014; @kreienbuhl2018].
+
+Across other short procedures, propofol PCS does not clearly change desaturation risk compared with clinician-controlled propofol, but it reduces rescue interventions for sedation-related events. The evidence quality is low [@kreienbuhl2018]. Adding alfentanil can improve surgical access and increase respiratory events [@nilsson2014].
+
+## Evidence for SVP implantation
+
+### PACSPI 1
+
+Forty patients with cancer received propofol–alfentanil PCS plus LA at Ryhov County Hospital [@seifert2022]. Bolus: 0.5 mL (propofol 4.5 mg + alfentanil 25 µg), no lockout. A nurse anaesthetist monitored the patient. All received 2 L/min oxygen via a capnography nasal cannula.
+
+Eighty per cent reported maximum pain ≤ 3 (median 1). Satisfaction was 10/10. Patients rated “how important is it to be in control?” at 8.5/10. Doses varied widely (propofol 0–243 mg). Four patients had bradypnoea; none desaturated. More than a third of eligible patients declined, often because they did not want sedation or wanted to drive home.
+
+### PACSPI 2
+
+Open two-centre RCT, n = 334 analysed, LA versus LA + PCS (same mix; 10 s bolus, maximum six per minute) [@seifert2026]. Primary outcome: maximum intraoperative pain.
+
+| Result | LA | LA + PCS |
+| --- | --- | --- |
+| Median max pain (NRS) | 2 (IQR 0–3) | 2 (IQR 0–3) |
+| Pain NRS ≥ 4 | 22.2% | 22.9% |
+| Overall satisfaction | 10 (10–10) | 10 (10–10) |
+| Perfect operating conditions | 82.0% | 96.4% |
+| Rescue sedation | 8.9% | 0.6% |
+| Procedure / recovery time (min) | 31.5 / 17 | 30 / 16 |
+| Median propofol / alfentanil | — | 54 mg / 0.3 mg |
+| Hypoxia or obstructed airway | 0 | 2/166 (1.2%) |
+| Bradypnoea | 0 | 4/166 (2.4%) |
+| Mask ventilation or conversion to GA | 0 | 0 |
+
+Pain and satisfaction did not differ. Operating conditions were better with PCS. Almost one in ten LA patients needed unplanned rescue sedation. Respiratory events with PCS were uncommon and manageable, but not zero. Self-administered volume ranged from 0 to 23 mL.
+
+**Conclusion to take into practice:** do not use PCS to reduce pain. It may reasonably be offered to patients who want additional sedation [@seifert2026].
+
+## Safety
+
+European procedural sedation guidelines require risk assessment, a dedicated practitioner with airway competence, standard monitoring, and discharge criteria. Propofol plus an opioid is synergistic for effect and for respiratory depression [@hinkelbein2018]. Swedish SFAI recommendations say the same in local language [@sfai].
+
+PACSPI was done in an operating room by anaesthesiologists, with a nurse anaesthetist dedicated to monitoring. That is the envelope to copy. Verbal prompting, extra oxygen, and chin lift should be treated as expected responses, not as surprises [@seifert2026; @nilsson2014]. Only the patient presses the button.
+
+## What this means for a two-to-three-person project
+
+The literature supports offering PCS to patients who want it, using the PACSPI 2 recipe, in an anaesthetic setting. It does not support a unit-wide programme, a pain-reduction campaign, or a new trial. Demand varies: some patients refuse sedation, some refuse to be without it [@seifert2022; @seifert2026]. The useful local test is whether *this team*, on *their lists*, can offer that choice without slowing the list or collecting airway events.
+
+## References
