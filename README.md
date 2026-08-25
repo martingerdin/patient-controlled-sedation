@@ -1,42 +1,32 @@
 # Patient-controlled sedation for port implantation
 
-Documents for a small quality improvement (QI) project: implement **patient-controlled sedation (PCS)** with propofol and alfentanil as an *optional* adjunct to local anaesthesia during subcutaneous venous port (SVP) implantation.
+A small quality improvement project for a team of **two or three people** who already run a subcutaneous venous port (SVP) list: offer **patient-controlled sedation (PCS)** with propofol and alfentanil as an *optional* adjunct to local anaesthesia.
 
-This is an implementation project, not a new randomised trial. PACSPI 2 already showed that PCS does not reduce intraoperative pain compared with local anaesthesia alone. The case for local adoption is patient choice, operating conditions, and fewer unplanned rescue sedations, inside an anaesthetic safety envelope.
+PACSPI 2 showed that PCS does not reduce intraoperative pain versus local anaesthesia alone. The case for trying it locally is patient choice, calmer operating conditions, and fewer unplanned rescue sedations — not pain scores.
 
 ## Documents
 
-| Document | What it is |
+Quarto sources. Render from `docs/` (for example `quarto render literature-review.qmd`). Citations live in one BibTeX file.
+
+| File | What it is |
 | --- | --- |
-| [Literature review](docs/literature-review.md) | Short narrative review of PCS and the PACSPI evidence |
-| [Project proposal](docs/project-proposal.md) | QI aims, PACSPI 2 technique, PDSA plan, measures, governance |
+| [docs/literature-review.qmd](docs/literature-review.qmd) | Short narrative review |
+| [docs/project-proposal.qmd](docs/project-proposal.qmd) | What this team will actually do |
+| [docs/references.bib](docs/references.bib) | Bibliography for both documents |
 
-Work after these two documents is tracked as GitHub issues:
+## Remaining work
 
-| Issue | Work package |
+| Issue | Work |
 | --- | --- |
-| [#1](https://github.com/martingerdin/patient-controlled-sedation/issues/1) | Baseline audit of current SVP sedation practice |
-| [#14](https://github.com/martingerdin/patient-controlled-sedation/issues/14) | QI team and stakeholder map |
-| [#3](https://github.com/martingerdin/patient-controlled-sedation/issues/3) | Governance, ethics, and data protection |
-| [#4](https://github.com/martingerdin/patient-controlled-sedation/issues/4) | Clinical SOP |
-| [#5](https://github.com/martingerdin/patient-controlled-sedation/issues/5) | Patient information and shared decision aid |
-| [#6](https://github.com/martingerdin/patient-controlled-sedation/issues/6) | Staff training and competency |
-| [#7](https://github.com/martingerdin/patient-controlled-sedation/issues/7) | Monitoring, rescue, and stop criteria |
-| [#8](https://github.com/martingerdin/patient-controlled-sedation/issues/8) | Measurement plan and data collection |
-| [#9](https://github.com/martingerdin/patient-controlled-sedation/issues/9) | PDSA 1 — simulation |
-| [#10](https://github.com/martingerdin/patient-controlled-sedation/issues/10) | PDSA 2 — clinical pilot |
-| [#11](https://github.com/martingerdin/patient-controlled-sedation/issues/11) | PDSA 3 — scale-up |
-| [#12](https://github.com/martingerdin/patient-controlled-sedation/issues/12) | Analysis and SQUIRE 2.0 report |
-| [#13](https://github.com/martingerdin/patient-controlled-sedation/issues/13) | Sustainment and standing SOP |
+| [#16](https://github.com/martingerdin/patient-controlled-sedation/issues/16) | One-page recipe and patient script |
+| [#17](https://github.com/martingerdin/patient-controlled-sedation/issues/17) | Departmental go-ahead |
+| [#18](https://github.com/martingerdin/patient-controlled-sedation/issues/18) | Small series on our lists, with a simple log |
+| [#19](https://github.com/martingerdin/patient-controlled-sedation/issues/19) | Decide whether to keep offering PCS |
 
-Issue [#2](https://github.com/martingerdin/patient-controlled-sedation/issues/2) is an accidental duplicate of #1 and can be closed.
+Issues [#1](https://github.com/martingerdin/patient-controlled-sedation/issues/1)–[#14](https://github.com/martingerdin/patient-controlled-sedation/issues/14) belong to an earlier, larger sketch and can be closed.
 
 ## Clinical take-home
 
-- **Do not** implement PCS to lower pain scores.
-- **Do** offer it to patients who want additional sedation and control, with dedicated monitoring copied from PACSPI 2.
-- **Keep** local anaesthesia alone as a first-class alternative.
-
-## Status
-
-Sketch: literature review and proposal. Clinical SOP, decision aid, measurement tools, and PDSA logs will be added as the issues close.
+- Do not implement PCS to lower pain scores.
+- Do offer it to patients who want additional sedation and control, with PACSPI 2 monitoring.
+- Keep local anaesthesia alone as a normal alternative.
