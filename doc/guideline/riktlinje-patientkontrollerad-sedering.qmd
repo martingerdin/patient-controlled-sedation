@@ -1,0 +1,48 @@
+# Patientkontrollerad sedering (PCS) med propofol vid inläggning av subkutan venport
+
+**Utkast för granskning** · Datum: 2026-10-15 · Författare: Martin Gerdin Wärnberg, Sara Ekvall
+
+## Bakgrund och syfte
+
+Propofol är ett kortverkande intravenöst anestesimedel. Vid PCS administrerar patienten själv små bolusdoser via en infusionspump med patientkontroll tills önskad sederingsnivå uppnås. Syftet är att på ett säkert sätt erbjuda komfortsedering vid elektiva ingrepp som inläggning av subkutana venportar. Eftersom patienten själv styr sederingen minskar riskerna för både otillräcklig och överdriven sedering.
+
+## Patienturval
+
+Patienter som ska genomgå elektiv inläggning av subkutan venport och som uppfyller följande kriterier:
+
+- Ålder ≥ 18 år
+- ASA-klass 1–3
+- BMI under 40
+- Förmåga att förstå och ta till sig information kring metodens syfte och genomförande
+
+## Kontraindikationer
+
+- Allergi mot propofol
+- ASA-klass ≥ 3
+- Förväntat svår luftväg
+- Kommunikationssvårigheter eller oförmåga att manövrera patientkontrollen
+
+## Förberedelser
+
+- Checklista gås igenom före start
+- Muntlig information ges på behandlingsdagen
+- Fasta enligt SFAI: fast föda 6 timmar, klar dryck till 2 timmar före
+- Fungerande perifer veninfart
+- Syrgas via grimma
+- Övervakning: pulsoximetri, blodtryck och EKG
+
+## Genomförande
+
+- Anestesisjuksköterska informerar patienten pre-operativt och övervakar samt dokumenterar övervakningsparametrar och givna läkemedel
+- Propofol 10 mg/ml i pump; bolusvolym 1 ml/dos; spärrtid 1 min; max 20 ml/timme.
+
+## Komplikationer och åtgärder
+
+- **Bradykardi** (puls < 45): avbryt tillförsel, överväg atropin 0,5 mg i.v.
+- **Hypotension** (systoliskt BT < 90): avbryt, tippa huvudändan, vätska, vid behov efedrin i.v.
+- **Hypoxi** (SaO₂ < 90 %): avbryt, säkra fri luftväg, uppmana djupa andetag, höj syrgas
+
+## Efter sedering
+
+- Patienten observeras tills hen är vaken och mobiliserad — minst 30 minuter efter sista dosen
+- Information före hemgång: inga koncentrationskrävande aktiviteter resterande del av dagen (köra bil, hantera motorredskap, ta hand om spädbarn eller underteckna viktiga handlingar)
