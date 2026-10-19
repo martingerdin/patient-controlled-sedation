@@ -1,10 +1,20 @@
-# Patientkontrollerad sedering (PCS) med propofol vid inläggning av subkutan venport
+---
+title: Patientkontrollerad sedering (PCS) med propofol vid inläggning av subkutan venport
+bibliography: ../bibliography.bib
+csl: ../nature.csl
+---
 
 **Utkast för granskning** · Datum: 2026-10-15 · Författare: Martin Gerdin Wärnberg, Sara Ekvall
 
 ## Bakgrund och syfte
 
-Propofol är ett kortverkande intravenöst anestesimedel. Vid PCS administrerar patienten själv små bolusdoser via en infusionspump med patientkontroll tills önskad sederingsnivå uppnås. Syftet är att på ett säkert sätt erbjuda komfortsedering vid elektiva ingrepp som inläggning av subkutana venportar. Eftersom patienten själv styr sederingen minskar riskerna för både otillräcklig och överdriven sedering.
+Propofol är ett kortverkande intravenöst anestesimedel. Vid patientkontrollerad sedering (PCS) administrerar patienten själv små bolusdoser via en infusionspump med patientkontroll tills önskad sederingsnivå uppnås. Syftet är att på ett säkert sätt erbjuda komfortsedering vid elektiva ingrepp som inläggning av subkutana venportar. Eftersom patienten själv styr sederingen minskar riskerna för både otillräcklig och överdriven sedering.
+
+Liknande protokoll för sedering med propofol som enda läkemedel eller i kombination med till exempel alfentanil används vid andra enheter på Karolinska Universitetssjukhuset och i andra regioner i Sverige, för detta ingrepp och för andra procedurer [@region_jonkoping_grundkoncept_pss_2026; @region_jonkoping_pss_endoskopi_2025; @region_kronoberg_pcs_endoskopi_2026; @nu_sjukvarden_propofolsedering_2026; @region_ostergotland_patientstyrd_sedering_2023; @region_stockholm_pcs_hematologi_2025].
+
+Svenska studier har utvärderat PCS som tillägg till lokalanestesi vid portinläggning. En genomförbarhetsstudie visade att metoden är praktiskt genomförbar och väl accepterad bland patienter med cancer [@seifert_patient-controlled_2022]. I en senare randomiserad studie (n=340) gav PCS med propofol–alfentanil oftare optimala procedurförhållanden med bibehållen hög patientnöjdhet, men minskade inte den intraoperativa smärtan jämfört med enbart lokalanestesi [@seifert_patientcontrolled_2026; @seifert_quality_2026].
+
+Sammantaget kan PCS därför erbjudas patienter som önskar sedering under ingreppet, men erbjuder inte bättre smärtlindring än lokalanestesi.
 
 ## Patienturval
 
@@ -46,3 +56,5 @@ Patienter som ska genomgå elektiv inläggning av subkutan venport och som uppfy
 
 - Patienten observeras tills hen är vaken och mobiliserad — minst 30 minuter efter sista dosen
 - Information före hemgång: inga koncentrationskrävande aktiviteter resterande del av dagen (köra bil, hantera motorredskap, ta hand om spädbarn eller underteckna viktiga handlingar)
+
+## Referenser
